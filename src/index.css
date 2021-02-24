@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#table-scroll {
+  /*position: fixed;*/
+  height: 200px;
+  overflow:auto; /*
+  *margin-top:20px;  */
+}
+
+/* https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l*/
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 250px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  height: 200px;
+  overflow: auto;
+
+}
+
+/*Styling the header
+For the header, we can simply change the background color and apply some basic styles to the text:*/
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: right;
+  top: 0;
+  position: fixed;
+  min-width: 250px;
+  column-width: 4;
+  display: table;
+  table-layout: fixed;
+}
+
+/*Moving onto the table cells
+spacing things out a bit*/
+.styled-table th {
+
+}
+
+.styled-table td {
+  padding: 6px 6px;
+  font-size: 10px; /*change font smaller*/
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*And the table rows...
+For these, we want to do 3 things:
+
+Add a bottom border to each row for separation
+Add a lighter background to every second row to help readability
+Add a dark border to the very last row to signify the end of the table*/
+.styled-table tbody tr {
+  border-bottom: fine solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 1px solid #009879;
+}
+
+/*Lastly, let's make the active row look different
+For this, we're just going to make changes to the text:*/
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+{
+  font-family: sans-serif; /* Change your font family */
+}
