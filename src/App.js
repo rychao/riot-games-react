@@ -3,7 +3,7 @@ import Players from "./components/Players"
 
 function App() {
   console.log(window);
-  // alert("time up!");
+  alert("time up!");
 
   return (
     <div>
