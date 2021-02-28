@@ -1,0 +1,31 @@
+{
+  "players": [
+  {
+      "id": "mtJp-eioEGTE7G7k7RcgnuibB_c3q4pa7araYjnfcvQTo-4",
+      "accountId": "5iYLTZxIbCTvNmF6usNQONM8SdA21uQD27Q5avCd7u4RPqU",
+      "puuid": "9_10b7y23qTxKAAVDJLA84PXlJwHAgusE6xHuTTBDcdmhoDzRhl7Z-o69NtILWaR-D0HMe07ATkYeg",
+      "name": "Kyntar1",
+      "profileIconId": 3543,
+      "revisionDate": 1614154160000,
+      "summonerLevel": 334
+  },
+  {
+    "id": "5Tru6mbuXy56O5A6QlOsATVJ1z1jx9prgiH8OP7uDJrWkbc",
+    "accountId": "UrR8t9oMq7Gxh0WomLMrE6nS3RIZ49iIN4uETkyZnIdCUuE",
+    "puuid": "yeF169Ljv6eMNGDvgPKtE1LAdBuVCAO3r0kvlxmk0fplESj8NsrCqwEOrvgs1wxNH_2oqyPhHA5jTg",
+    "name": "TwilightSnowman",
+    "profileIconId": 4803,
+    "revisionDate": 1611712383000,
+    "summonerLevel": 415
+  },
+  {
+    "id": "zQYpgo_XBL97Lh9X-offSfuVuLKpVuLChEOGQ06KCafCmgE",
+    "accountId": "_3tYt8DgaS-4WhgLIgVuD4FG7tsmdluIAd942CmiL98Ctw",
+    "puuid": "cm8jamZ5aiiOOgzTIuplPTJ-dWhy3GJc80JvV10OAVMIEfrxwxEA2Ha69S-kGagOQsazwrTghipnHA",
+    "name": "TacticalBacon",
+    "profileIconId": 4873,
+    "revisionDate": 1614202513000,
+    "summonerLevel": 339
+  }
+  ]
+}
